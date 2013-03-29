@@ -6716,6 +6716,18 @@ body.home .home-regions .widget-icon {
   text-align: center;
 }
 
+@media only screen and (max-width: 767px) {
+  /* line 35, ../sass/_page_home.scss */
+  body.home .home-regions .widget-wrapper {
+    float: none;
+    width: 100%;
+    margin-bottom: 1.875em;
+  }
+  /* line 40, ../sass/_page_home.scss */
+  body.home .home-regions .widget-wrapper:last-child {
+    margin-bottom: 0;
+  }
+}
 /* line 2, ../sass/_widgets.scss */
 .widget ul {
   margin: 0;

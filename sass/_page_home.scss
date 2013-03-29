@@ -28,3 +28,19 @@ body.home {
        }
    }
 }
+
+@media only screen and (max-width: 767px) {
+  body.home {
+    .home-regions {
+      .widget-wrapper {
+        float: none;
+        width: 100%;
+        margin-bottom: $column-gutter;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}
