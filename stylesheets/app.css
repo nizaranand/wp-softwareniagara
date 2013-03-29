@@ -5466,7 +5466,7 @@ table tfoot tr td {
 }
 
 /* global foundicon styles */
-/* line 11, ../sass/fc-icons.scss */
+/* line 11, ../sass/_fc-icons.scss */
 [class*="foundicon-"] {
   display: inline;
   width: auto;
@@ -5478,7 +5478,7 @@ table tfoot tr td {
   background-repeat: repeat;
 }
 
-/* line 22, ../sass/fc-icons.scss */
+/* line 22, ../sass/_fc-icons.scss */
 [class*="accessibility foundicon-"]:before {
   font-family: "AccessibilityFoundicons";
   font-weight: normal;
@@ -5487,132 +5487,132 @@ table tfoot tr td {
 }
 
 /* icons */
-/* line 30, ../sass/fc-icons.scss */
+/* line 30, ../sass/_fc-icons.scss */
 .foundicon-wheelchair:before {
   content: "\f000";
 }
 
-/* line 34, ../sass/fc-icons.scss */
+/* line 34, ../sass/_fc-icons.scss */
 .foundicon-speaker:before {
   content: "\f001";
 }
 
-/* line 38, ../sass/fc-icons.scss */
+/* line 38, ../sass/_fc-icons.scss */
 .foundicon-fontsize:before {
   content: "\f002";
 }
 
-/* line 42, ../sass/fc-icons.scss */
+/* line 42, ../sass/_fc-icons.scss */
 .foundicon-eject:before {
   content: "\f003";
 }
 
-/* line 46, ../sass/fc-icons.scss */
+/* line 46, ../sass/_fc-icons.scss */
 .foundicon-view-mode:before {
   content: "\f004";
 }
 
-/* line 50, ../sass/fc-icons.scss */
+/* line 50, ../sass/_fc-icons.scss */
 .foundicon-eyeball:before {
   content: "\f005";
 }
 
-/* line 54, ../sass/fc-icons.scss */
+/* line 54, ../sass/_fc-icons.scss */
 .foundicon-asl:before {
   content: "\f006";
 }
 
-/* line 58, ../sass/fc-icons.scss */
+/* line 58, ../sass/_fc-icons.scss */
 .foundicon-person:before {
   content: "\f007";
 }
 
-/* line 62, ../sass/fc-icons.scss */
+/* line 62, ../sass/_fc-icons.scss */
 .foundicon-question:before {
   content: "\f008";
 }
 
-/* line 66, ../sass/fc-icons.scss */
+/* line 66, ../sass/_fc-icons.scss */
 .foundicon-adult:before {
   content: "\f009";
 }
 
-/* line 70, ../sass/fc-icons.scss */
+/* line 70, ../sass/_fc-icons.scss */
 .foundicon-child:before {
   content: "\f00a";
 }
 
-/* line 74, ../sass/fc-icons.scss */
+/* line 74, ../sass/_fc-icons.scss */
 .foundicon-glasses:before {
   content: "\f00b";
 }
 
-/* line 78, ../sass/fc-icons.scss */
+/* line 78, ../sass/_fc-icons.scss */
 .foundicon-cc:before {
   content: "\f00c";
 }
 
-/* line 82, ../sass/fc-icons.scss */
+/* line 82, ../sass/_fc-icons.scss */
 .foundicon-blind:before {
   content: "\f00d";
 }
 
-/* line 86, ../sass/fc-icons.scss */
+/* line 86, ../sass/_fc-icons.scss */
 .foundicon-braille:before {
   content: "\f00e";
 }
 
-/* line 90, ../sass/fc-icons.scss */
+/* line 90, ../sass/_fc-icons.scss */
 .foundicon-iphone-home:before {
   content: "\f00f";
 }
 
-/* line 94, ../sass/fc-icons.scss */
+/* line 94, ../sass/_fc-icons.scss */
 .foundicon-w3c:before {
   content: "\f010";
 }
 
-/* line 98, ../sass/fc-icons.scss */
+/* line 98, ../sass/_fc-icons.scss */
 .foundicon-css:before {
   content: "\f011";
 }
 
-/* line 102, ../sass/fc-icons.scss */
+/* line 102, ../sass/_fc-icons.scss */
 .foundicon-key:before {
   content: "\f012";
 }
 
-/* line 106, ../sass/fc-icons.scss */
+/* line 106, ../sass/_fc-icons.scss */
 .foundicon-hearing-impaired:before {
   content: "\f013";
 }
 
-/* line 110, ../sass/fc-icons.scss */
+/* line 110, ../sass/_fc-icons.scss */
 .foundicon-male:before {
   content: "\f014";
 }
 
-/* line 114, ../sass/fc-icons.scss */
+/* line 114, ../sass/_fc-icons.scss */
 .foundicon-female:before {
   content: "\f015";
 }
 
-/* line 118, ../sass/fc-icons.scss */
+/* line 118, ../sass/_fc-icons.scss */
 .foundicon-network:before {
   content: "\f016";
 }
 
-/* line 122, ../sass/fc-icons.scss */
+/* line 122, ../sass/_fc-icons.scss */
 .foundicon-guidedog:before {
   content: "\f017";
 }
 
-/* line 126, ../sass/fc-icons.scss */
+/* line 126, ../sass/_fc-icons.scss */
 .foundicon-universal-access:before {
   content: "\f018";
 }
 
-/* line 130, ../sass/fc-icons.scss */
+/* line 130, ../sass/_fc-icons.scss */
 .foundicon-elevator:before {
   content: "\f019";
 }
@@ -5627,7 +5627,7 @@ table tfoot tr td {
 }
 
 /* global foundicon styles */
-/* line 144, ../sass/fc-icons.scss */
+/* line 144, ../sass/_fc-icons.scss */
 [class*="foundicon-"] {
   display: inline;
   width: auto;
@@ -5639,7 +5639,7 @@ table tfoot tr td {
   background-repeat: repeat;
 }
 
-/* line 155, ../sass/fc-icons.scss */
+/* line 155, ../sass/_fc-icons.scss */
 [class*="general foundicon-"]:before {
   font-family: "GeneralFoundicons";
   font-weight: normal;
@@ -5648,237 +5648,237 @@ table tfoot tr td {
 }
 
 /* icons */
-/* line 163, ../sass/fc-icons.scss */
+/* line 163, ../sass/_fc-icons.scss */
 .foundicon-settings:before {
   content: "\f000";
 }
 
-/* line 167, ../sass/fc-icons.scss */
+/* line 167, ../sass/_fc-icons.scss */
 .foundicon-heart:before {
   content: "\f001";
 }
 
-/* line 171, ../sass/fc-icons.scss */
+/* line 171, ../sass/_fc-icons.scss */
 .foundicon-star:before {
   content: "\f002";
 }
 
-/* line 175, ../sass/fc-icons.scss */
+/* line 175, ../sass/_fc-icons.scss */
 .foundicon-plus:before {
   content: "\f003";
 }
 
-/* line 179, ../sass/fc-icons.scss */
+/* line 179, ../sass/_fc-icons.scss */
 .foundicon-minus:before {
   content: "\f004";
 }
 
-/* line 183, ../sass/fc-icons.scss */
+/* line 183, ../sass/_fc-icons.scss */
 .foundicon-checkmark:before {
   content: "\f005";
 }
 
-/* line 187, ../sass/fc-icons.scss */
+/* line 187, ../sass/_fc-icons.scss */
 .foundicon-remove:before {
   content: "\f006";
 }
 
-/* line 191, ../sass/fc-icons.scss */
+/* line 191, ../sass/_fc-icons.scss */
 .foundicon-mail:before {
   content: "\f007";
 }
 
-/* line 195, ../sass/fc-icons.scss */
+/* line 195, ../sass/_fc-icons.scss */
 .foundicon-calendar:before {
   content: "\f008";
 }
 
-/* line 199, ../sass/fc-icons.scss */
+/* line 199, ../sass/_fc-icons.scss */
 .foundicon-page:before {
   content: "\f009";
 }
 
-/* line 203, ../sass/fc-icons.scss */
+/* line 203, ../sass/_fc-icons.scss */
 .foundicon-tools:before {
   content: "\f00a";
 }
 
-/* line 207, ../sass/fc-icons.scss */
+/* line 207, ../sass/_fc-icons.scss */
 .foundicon-globe:before {
   content: "\f00b";
 }
 
-/* line 211, ../sass/fc-icons.scss */
+/* line 211, ../sass/_fc-icons.scss */
 .foundicon-home:before {
   content: "\f00c";
 }
 
-/* line 215, ../sass/fc-icons.scss */
+/* line 215, ../sass/_fc-icons.scss */
 .foundicon-quote:before {
   content: "\f00d";
 }
 
-/* line 219, ../sass/fc-icons.scss */
+/* line 219, ../sass/_fc-icons.scss */
 .foundicon-people:before {
   content: "\f00e";
 }
 
-/* line 223, ../sass/fc-icons.scss */
+/* line 223, ../sass/_fc-icons.scss */
 .foundicon-monitor:before {
   content: "\f00f";
 }
 
-/* line 227, ../sass/fc-icons.scss */
+/* line 227, ../sass/_fc-icons.scss */
 .foundicon-laptop:before {
   content: "\f010";
 }
 
-/* line 231, ../sass/fc-icons.scss */
+/* line 231, ../sass/_fc-icons.scss */
 .foundicon-phone:before {
   content: "\f011";
 }
 
-/* line 235, ../sass/fc-icons.scss */
+/* line 235, ../sass/_fc-icons.scss */
 .foundicon-cloud:before {
   content: "\f012";
 }
 
-/* line 239, ../sass/fc-icons.scss */
+/* line 239, ../sass/_fc-icons.scss */
 .foundicon-error:before {
   content: "\f013";
 }
 
-/* line 243, ../sass/fc-icons.scss */
+/* line 243, ../sass/_fc-icons.scss */
 .foundicon-right-arrow:before {
   content: "\f014";
 }
 
-/* line 247, ../sass/fc-icons.scss */
+/* line 247, ../sass/_fc-icons.scss */
 .foundicon-left-arrow:before {
   content: "\f015";
 }
 
-/* line 251, ../sass/fc-icons.scss */
+/* line 251, ../sass/_fc-icons.scss */
 .foundicon-up-arrow:before {
   content: "\f016";
 }
 
-/* line 255, ../sass/fc-icons.scss */
+/* line 255, ../sass/_fc-icons.scss */
 .foundicon-down-arrow:before {
   content: "\f017";
 }
 
-/* line 259, ../sass/fc-icons.scss */
+/* line 259, ../sass/_fc-icons.scss */
 .foundicon-trash:before {
   content: "\f018";
 }
 
-/* line 263, ../sass/fc-icons.scss */
+/* line 263, ../sass/_fc-icons.scss */
 .foundicon-add-doc:before {
   content: "\f019";
 }
 
-/* line 267, ../sass/fc-icons.scss */
+/* line 267, ../sass/_fc-icons.scss */
 .foundicon-edit:before {
   content: "\f01a";
 }
 
-/* line 271, ../sass/fc-icons.scss */
+/* line 271, ../sass/_fc-icons.scss */
 .foundicon-lock:before {
   content: "\f01b";
 }
 
-/* line 275, ../sass/fc-icons.scss */
+/* line 275, ../sass/_fc-icons.scss */
 .foundicon-unlock:before {
   content: "\f01c";
 }
 
-/* line 279, ../sass/fc-icons.scss */
+/* line 279, ../sass/_fc-icons.scss */
 .foundicon-refresh:before {
   content: "\f01d";
 }
 
-/* line 283, ../sass/fc-icons.scss */
+/* line 283, ../sass/_fc-icons.scss */
 .foundicon-paper-clip:before {
   content: "\f01e";
 }
 
-/* line 287, ../sass/fc-icons.scss */
+/* line 287, ../sass/_fc-icons.scss */
 .foundicon-video:before {
   content: "\f01f";
 }
 
-/* line 291, ../sass/fc-icons.scss */
+/* line 291, ../sass/_fc-icons.scss */
 .foundicon-photo:before {
   content: "\f020";
 }
 
-/* line 295, ../sass/fc-icons.scss */
+/* line 295, ../sass/_fc-icons.scss */
 .foundicon-graph:before {
   content: "\f021";
 }
 
-/* line 299, ../sass/fc-icons.scss */
+/* line 299, ../sass/_fc-icons.scss */
 .foundicon-idea:before {
   content: "\f022";
 }
 
-/* line 303, ../sass/fc-icons.scss */
+/* line 303, ../sass/_fc-icons.scss */
 .foundicon-mic:before {
   content: "\f023";
 }
 
-/* line 307, ../sass/fc-icons.scss */
+/* line 307, ../sass/_fc-icons.scss */
 .foundicon-cart:before {
   content: "\f024";
 }
 
-/* line 311, ../sass/fc-icons.scss */
+/* line 311, ../sass/_fc-icons.scss */
 .foundicon-address-book:before {
   content: "\f025";
 }
 
-/* line 315, ../sass/fc-icons.scss */
+/* line 315, ../sass/_fc-icons.scss */
 .foundicon-compass:before {
   content: "\f026";
 }
 
-/* line 319, ../sass/fc-icons.scss */
+/* line 319, ../sass/_fc-icons.scss */
 .foundicon-flag:before {
   content: "\f027";
 }
 
-/* line 323, ../sass/fc-icons.scss */
+/* line 323, ../sass/_fc-icons.scss */
 .foundicon-location:before {
   content: "\f028";
 }
 
-/* line 327, ../sass/fc-icons.scss */
+/* line 327, ../sass/_fc-icons.scss */
 .foundicon-clock:before {
   content: "\f029";
 }
 
-/* line 331, ../sass/fc-icons.scss */
+/* line 331, ../sass/_fc-icons.scss */
 .foundicon-folder:before {
   content: "\f02a";
 }
 
-/* line 335, ../sass/fc-icons.scss */
+/* line 335, ../sass/_fc-icons.scss */
 .foundicon-inbox:before {
   content: "\f02b";
 }
 
-/* line 339, ../sass/fc-icons.scss */
+/* line 339, ../sass/_fc-icons.scss */
 .foundicon-website:before {
   content: "\f02c";
 }
 
-/* line 343, ../sass/fc-icons.scss */
+/* line 343, ../sass/_fc-icons.scss */
 .foundicon-smiley:before {
   content: "\f02d";
 }
 
-/* line 347, ../sass/fc-icons.scss */
+/* line 347, ../sass/_fc-icons.scss */
 .foundicon-search:before {
   content: "\f02e";
 }
@@ -5893,7 +5893,7 @@ table tfoot tr td {
 }
 
 /* global foundicon styles */
-/* line 361, ../sass/fc-icons.scss */
+/* line 361, ../sass/_fc-icons.scss */
 [class*="foundicon-"] {
   display: inline;
   width: auto;
@@ -5905,7 +5905,7 @@ table tfoot tr td {
   background-repeat: repeat;
 }
 
-/* line 372, ../sass/fc-icons.scss */
+/* line 372, ../sass/_fc-icons.scss */
 [class*="enclosed foundicon-"]:before {
   font-family: "GeneralEnclosedFoundicons";
   font-weight: normal;
@@ -5914,237 +5914,237 @@ table tfoot tr td {
 }
 
 /* icons */
-/* line 380, ../sass/fc-icons.scss */
+/* line 380, ../sass/_fc-icons.scss */
 .foundicon-settings:before {
   content: "\f000";
 }
 
-/* line 384, ../sass/fc-icons.scss */
+/* line 384, ../sass/_fc-icons.scss */
 .foundicon-heart:before {
   content: "\f001";
 }
 
-/* line 388, ../sass/fc-icons.scss */
+/* line 388, ../sass/_fc-icons.scss */
 .foundicon-star:before {
   content: "\f002";
 }
 
-/* line 392, ../sass/fc-icons.scss */
+/* line 392, ../sass/_fc-icons.scss */
 .foundicon-plus:before {
   content: "\f003";
 }
 
-/* line 396, ../sass/fc-icons.scss */
+/* line 396, ../sass/_fc-icons.scss */
 .foundicon-minus:before {
   content: "\f004";
 }
 
-/* line 400, ../sass/fc-icons.scss */
+/* line 400, ../sass/_fc-icons.scss */
 .foundicon-checkmark:before {
   content: "\f005";
 }
 
-/* line 404, ../sass/fc-icons.scss */
+/* line 404, ../sass/_fc-icons.scss */
 .foundicon-remove:before {
   content: "\f006";
 }
 
-/* line 408, ../sass/fc-icons.scss */
+/* line 408, ../sass/_fc-icons.scss */
 .foundicon-mail:before {
   content: "\f007";
 }
 
-/* line 412, ../sass/fc-icons.scss */
+/* line 412, ../sass/_fc-icons.scss */
 .foundicon-calendar:before {
   content: "\f008";
 }
 
-/* line 416, ../sass/fc-icons.scss */
+/* line 416, ../sass/_fc-icons.scss */
 .foundicon-page:before {
   content: "\f009";
 }
 
-/* line 420, ../sass/fc-icons.scss */
+/* line 420, ../sass/_fc-icons.scss */
 .foundicon-tools:before {
   content: "\f00a";
 }
 
-/* line 424, ../sass/fc-icons.scss */
+/* line 424, ../sass/_fc-icons.scss */
 .foundicon-globe:before {
   content: "\f00b";
 }
 
-/* line 428, ../sass/fc-icons.scss */
+/* line 428, ../sass/_fc-icons.scss */
 .foundicon-home:before {
   content: "\f00c";
 }
 
-/* line 432, ../sass/fc-icons.scss */
+/* line 432, ../sass/_fc-icons.scss */
 .foundicon-quote:before {
   content: "\f00d";
 }
 
-/* line 436, ../sass/fc-icons.scss */
+/* line 436, ../sass/_fc-icons.scss */
 .foundicon-people:before {
   content: "\f00e";
 }
 
-/* line 440, ../sass/fc-icons.scss */
+/* line 440, ../sass/_fc-icons.scss */
 .foundicon-monitor:before {
   content: "\f00f";
 }
 
-/* line 444, ../sass/fc-icons.scss */
+/* line 444, ../sass/_fc-icons.scss */
 .foundicon-laptop:before {
   content: "\f010";
 }
 
-/* line 448, ../sass/fc-icons.scss */
+/* line 448, ../sass/_fc-icons.scss */
 .foundicon-phone:before {
   content: "\f011";
 }
 
-/* line 452, ../sass/fc-icons.scss */
+/* line 452, ../sass/_fc-icons.scss */
 .foundicon-cloud:before {
   content: "\f012";
 }
 
-/* line 456, ../sass/fc-icons.scss */
+/* line 456, ../sass/_fc-icons.scss */
 .foundicon-error:before {
   content: "\f013";
 }
 
-/* line 460, ../sass/fc-icons.scss */
+/* line 460, ../sass/_fc-icons.scss */
 .foundicon-right-arrow:before {
   content: "\f014";
 }
 
-/* line 464, ../sass/fc-icons.scss */
+/* line 464, ../sass/_fc-icons.scss */
 .foundicon-left-arrow:before {
   content: "\f015";
 }
 
-/* line 468, ../sass/fc-icons.scss */
+/* line 468, ../sass/_fc-icons.scss */
 .foundicon-up-arrow:before {
   content: "\f016";
 }
 
-/* line 472, ../sass/fc-icons.scss */
+/* line 472, ../sass/_fc-icons.scss */
 .foundicon-down-arrow:before {
   content: "\f017";
 }
 
-/* line 476, ../sass/fc-icons.scss */
+/* line 476, ../sass/_fc-icons.scss */
 .foundicon-trash:before {
   content: "\f018";
 }
 
-/* line 480, ../sass/fc-icons.scss */
+/* line 480, ../sass/_fc-icons.scss */
 .foundicon-add-doc:before {
   content: "\f019";
 }
 
-/* line 484, ../sass/fc-icons.scss */
+/* line 484, ../sass/_fc-icons.scss */
 .foundicon-edit:before {
   content: "\f01a";
 }
 
-/* line 488, ../sass/fc-icons.scss */
+/* line 488, ../sass/_fc-icons.scss */
 .foundicon-lock:before {
   content: "\f01b";
 }
 
-/* line 492, ../sass/fc-icons.scss */
+/* line 492, ../sass/_fc-icons.scss */
 .foundicon-unlock:before {
   content: "\f01c";
 }
 
-/* line 496, ../sass/fc-icons.scss */
+/* line 496, ../sass/_fc-icons.scss */
 .foundicon-refresh:before {
   content: "\f01d";
 }
 
-/* line 500, ../sass/fc-icons.scss */
+/* line 500, ../sass/_fc-icons.scss */
 .foundicon-paper-clip:before {
   content: "\f01e";
 }
 
-/* line 504, ../sass/fc-icons.scss */
+/* line 504, ../sass/_fc-icons.scss */
 .foundicon-video:before {
   content: "\f01f";
 }
 
-/* line 508, ../sass/fc-icons.scss */
+/* line 508, ../sass/_fc-icons.scss */
 .foundicon-photo:before {
   content: "\f020";
 }
 
-/* line 512, ../sass/fc-icons.scss */
+/* line 512, ../sass/_fc-icons.scss */
 .foundicon-graph:before {
   content: "\f021";
 }
 
-/* line 516, ../sass/fc-icons.scss */
+/* line 516, ../sass/_fc-icons.scss */
 .foundicon-idea:before {
   content: "\f022";
 }
 
-/* line 520, ../sass/fc-icons.scss */
+/* line 520, ../sass/_fc-icons.scss */
 .foundicon-mic:before {
   content: "\f023";
 }
 
-/* line 524, ../sass/fc-icons.scss */
+/* line 524, ../sass/_fc-icons.scss */
 .foundicon-cart:before {
   content: "\f024";
 }
 
-/* line 528, ../sass/fc-icons.scss */
+/* line 528, ../sass/_fc-icons.scss */
 .foundicon-address-book:before {
   content: "\f025";
 }
 
-/* line 532, ../sass/fc-icons.scss */
+/* line 532, ../sass/_fc-icons.scss */
 .foundicon-compass:before {
   content: "\f026";
 }
 
-/* line 536, ../sass/fc-icons.scss */
+/* line 536, ../sass/_fc-icons.scss */
 .foundicon-flag:before {
   content: "\f027";
 }
 
-/* line 540, ../sass/fc-icons.scss */
+/* line 540, ../sass/_fc-icons.scss */
 .foundicon-location:before {
   content: "\f028";
 }
 
-/* line 544, ../sass/fc-icons.scss */
+/* line 544, ../sass/_fc-icons.scss */
 .foundicon-clock:before {
   content: "\f029";
 }
 
-/* line 548, ../sass/fc-icons.scss */
+/* line 548, ../sass/_fc-icons.scss */
 .foundicon-folder:before {
   content: "\f02a";
 }
 
-/* line 552, ../sass/fc-icons.scss */
+/* line 552, ../sass/_fc-icons.scss */
 .foundicon-inbox:before {
   content: "\f02b";
 }
 
-/* line 556, ../sass/fc-icons.scss */
+/* line 556, ../sass/_fc-icons.scss */
 .foundicon-website:before {
   content: "\f02c";
 }
 
-/* line 560, ../sass/fc-icons.scss */
+/* line 560, ../sass/_fc-icons.scss */
 .foundicon-smiley:before {
   content: "\f02d";
 }
 
-/* line 564, ../sass/fc-icons.scss */
+/* line 564, ../sass/_fc-icons.scss */
 .foundicon-search:before {
   content: "\f02e";
 }
@@ -6159,7 +6159,7 @@ table tfoot tr td {
 }
 
 /* global foundicon styles */
-/* line 578, ../sass/fc-icons.scss */
+/* line 578, ../sass/_fc-icons.scss */
 [class*="foundicon-"] {
   display: inline;
   width: auto;
@@ -6171,7 +6171,7 @@ table tfoot tr td {
   background-repeat: repeat;
 }
 
-/* line 589, ../sass/fc-icons.scss */
+/* line 589, ../sass/_fc-icons.scss */
 [class*="social foundicon-"]:before {
   font-family: "SocialFoundicons";
   font-weight: normal;
@@ -6180,152 +6180,152 @@ table tfoot tr td {
 }
 
 /* icons */
-/* line 597, ../sass/fc-icons.scss */
+/* line 597, ../sass/_fc-icons.scss */
 .foundicon-thumb-up:before {
   content: "\f000";
 }
 
-/* line 601, ../sass/fc-icons.scss */
+/* line 601, ../sass/_fc-icons.scss */
 .foundicon-thumb-down:before {
   content: "\f001";
 }
 
-/* line 605, ../sass/fc-icons.scss */
+/* line 605, ../sass/_fc-icons.scss */
 .foundicon-rss:before {
   content: "\f002";
 }
 
-/* line 609, ../sass/fc-icons.scss */
+/* line 609, ../sass/_fc-icons.scss */
 .foundicon-facebook:before {
   content: "\f003";
 }
 
-/* line 613, ../sass/fc-icons.scss */
+/* line 613, ../sass/_fc-icons.scss */
 .foundicon-twitter:before {
   content: "\f004";
 }
 
-/* line 617, ../sass/fc-icons.scss */
+/* line 617, ../sass/_fc-icons.scss */
 .foundicon-pinterest:before {
   content: "\f005";
 }
 
-/* line 621, ../sass/fc-icons.scss */
+/* line 621, ../sass/_fc-icons.scss */
 .foundicon-github:before {
   content: "\f006";
 }
 
-/* line 625, ../sass/fc-icons.scss */
+/* line 625, ../sass/_fc-icons.scss */
 .foundicon-path:before {
   content: "\f007";
 }
 
-/* line 629, ../sass/fc-icons.scss */
+/* line 629, ../sass/_fc-icons.scss */
 .foundicon-linkedin:before {
   content: "\f008";
 }
 
-/* line 633, ../sass/fc-icons.scss */
+/* line 633, ../sass/_fc-icons.scss */
 .foundicon-dribbble:before {
   content: "\f009";
 }
 
-/* line 637, ../sass/fc-icons.scss */
+/* line 637, ../sass/_fc-icons.scss */
 .foundicon-stumble-upon:before {
   content: "\f00a";
 }
 
-/* line 641, ../sass/fc-icons.scss */
+/* line 641, ../sass/_fc-icons.scss */
 .foundicon-behance:before {
   content: "\f00b";
 }
 
-/* line 645, ../sass/fc-icons.scss */
+/* line 645, ../sass/_fc-icons.scss */
 .foundicon-reddit:before {
   content: "\f00c";
 }
 
-/* line 649, ../sass/fc-icons.scss */
+/* line 649, ../sass/_fc-icons.scss */
 .foundicon-google-plus:before {
   content: "\f00d";
 }
 
-/* line 653, ../sass/fc-icons.scss */
+/* line 653, ../sass/_fc-icons.scss */
 .foundicon-youtube:before {
   content: "\f00e";
 }
 
-/* line 657, ../sass/fc-icons.scss */
+/* line 657, ../sass/_fc-icons.scss */
 .foundicon-vimeo:before {
   content: "\f00f";
 }
 
-/* line 661, ../sass/fc-icons.scss */
+/* line 661, ../sass/_fc-icons.scss */
 .foundicon-flickr:before {
   content: "\f010";
 }
 
-/* line 665, ../sass/fc-icons.scss */
+/* line 665, ../sass/_fc-icons.scss */
 .foundicon-slideshare:before {
   content: "\f011";
 }
 
-/* line 669, ../sass/fc-icons.scss */
+/* line 669, ../sass/_fc-icons.scss */
 .foundicon-picassa:before {
   content: "\f012";
 }
 
-/* line 673, ../sass/fc-icons.scss */
+/* line 673, ../sass/_fc-icons.scss */
 .foundicon-skype:before {
   content: "\f013";
 }
 
-/* line 677, ../sass/fc-icons.scss */
+/* line 677, ../sass/_fc-icons.scss */
 .foundicon-steam:before {
   content: "\f014";
 }
 
-/* line 681, ../sass/fc-icons.scss */
+/* line 681, ../sass/_fc-icons.scss */
 .foundicon-instagram:before {
   content: "\f015";
 }
 
-/* line 685, ../sass/fc-icons.scss */
+/* line 685, ../sass/_fc-icons.scss */
 .foundicon-foursquare:before {
   content: "\f016";
 }
 
-/* line 689, ../sass/fc-icons.scss */
+/* line 689, ../sass/_fc-icons.scss */
 .foundicon-delicious:before {
   content: "\f017";
 }
 
-/* line 693, ../sass/fc-icons.scss */
+/* line 693, ../sass/_fc-icons.scss */
 .foundicon-chat:before {
   content: "\f018";
 }
 
-/* line 697, ../sass/fc-icons.scss */
+/* line 697, ../sass/_fc-icons.scss */
 .foundicon-torso:before {
   content: "\f019";
 }
 
-/* line 701, ../sass/fc-icons.scss */
+/* line 701, ../sass/_fc-icons.scss */
 .foundicon-tumblr:before {
   content: "\f01a";
 }
 
-/* line 705, ../sass/fc-icons.scss */
+/* line 705, ../sass/_fc-icons.scss */
 .foundicon-video-chat:before {
   content: "\f01b";
 }
 
-/* line 709, ../sass/fc-icons.scss */
+/* line 709, ../sass/_fc-icons.scss */
 .foundicon-digg:before {
   content: "\f01c";
 }
 
-/* line 713, ../sass/fc-icons.scss */
+/* line 713, ../sass/_fc-icons.scss */
 .foundicon-wordpress:before {
   content: "\f01d";
 }
@@ -6570,8 +6570,9 @@ ul {
   width: 7.5em;
   height: 7.5em;
   border-radius: 3.75em;
+  border: 5px solid white;
 }
-/* line 16, ../sass/_page_about.scss */
+/* line 17, ../sass/_page_about.scss */
 .organizers .content {
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
@@ -6583,23 +6584,23 @@ ul {
   padding: 0.46875em;
   padding-top: 4.21875em;
 }
-/* line 24, ../sass/_page_about.scss */
+/* line 25, ../sass/_page_about.scss */
 .organizers dl {
   font-size: 12.8px;
   font-size: 2em;
   width: 6em;
   margin: 0 auto;
 }
-/* line 31, ../sass/_page_about.scss */
+/* line 32, ../sass/_page_about.scss */
 .organizers dt {
   display: none;
 }
-/* line 35, ../sass/_page_about.scss */
+/* line 36, ../sass/_page_about.scss */
 .organizers dd {
   float: left;
   margin-bottom: 0;
 }
-/* line 39, ../sass/_page_about.scss */
+/* line 40, ../sass/_page_about.scss */
 .organizers dd a {
   display: block;
   float: left;
@@ -6607,17 +6608,17 @@ ul {
   height: 2em;
   line-height: 1em;
 }
-/* line 46, ../sass/_page_about.scss */
+/* line 47, ../sass/_page_about.scss */
 .organizers dd a i {
   display: block;
   width: 100%;
   height: 100%;
 }
-/* line 53, ../sass/_page_about.scss */
+/* line 54, ../sass/_page_about.scss */
 .organizers dd span {
   display: none;
 }
-/* line 58, ../sass/_page_about.scss */
+/* line 59, ../sass/_page_about.scss */
 .organizers .clear {
   clear: both;
 }
