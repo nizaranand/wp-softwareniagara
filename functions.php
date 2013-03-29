@@ -120,4 +120,13 @@ function sn_wpsearch($form) {
 }
 add_filter( 'get_search_form', 'sn_wpsearch' );
 
+/************ EVENTS ******************************/
+function sn_alter_event_query($query) {
+    if ($query->is_main_query() && is_post_type_archive('event')) {
+        $query->set('orderby', 'eventstart');
+        $query->set('order', 'desc');
+    }
+}
+add_action('pre_get_posts', 'sn_alter_event_query');
+
 ?>
