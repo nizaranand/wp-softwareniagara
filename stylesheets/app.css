@@ -6504,22 +6504,38 @@ table tfoot tr td {
   text-indent: -9999em;
 }
 /* line 35, ../sass/_footer.scss */
+#footer-inner .site-links li:first-child {
+  margin-left: 0;
+}
+/* line 39, ../sass/_footer.scss */
 #footer-inner .site-links li a[title=Github] {
   background: transparent url("../images/fc-webicon-github.png") center center no-repeat;
 }
-/* line 39, ../sass/_footer.scss */
+/* line 43, ../sass/_footer.scss */
 #footer-inner .site-links li a[title=Google] {
   background: transparent url("../images/fc-webicon-googleplus.png") center center no-repeat;
 }
-/* line 43, ../sass/_footer.scss */
+/* line 47, ../sass/_footer.scss */
 #footer-inner .site-links li a[title=Facebook] {
   background: transparent url("../images/fc-webicon-facebook.png") center center no-repeat;
 }
-/* line 47, ../sass/_footer.scss */
+/* line 51, ../sass/_footer.scss */
 #footer-inner .site-links li a[title=Twitter] {
   background: transparent url("../images/fc-webicon-twitter.png") center center no-repeat;
 }
 
+@media only screen and (max-width: 767px) {
+  /* line 59, ../sass/_footer.scss */
+  #footer-inner .site-details {
+    float: none;
+    width: 100%;
+  }
+  /* line 63, ../sass/_footer.scss */
+  #footer-inner .site-links {
+    float: none;
+    width: 100%;
+  }
+}
 /* line 1, ../sass/_header.scss */
 #header {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #265e95), color-stop(100%, #215181));

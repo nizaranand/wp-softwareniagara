@@ -32,6 +32,10 @@
       text-indent: -9999em;
     }
 
+    li:first-child {
+      margin-left: 0;
+    }
+
     li a[title=Github] {
       background: transparent url('../images/fc-webicon-github.png') center center no-repeat;
     }
@@ -46,6 +50,19 @@
 
     li a[title=Twitter] {
       background: transparent url('../images/fc-webicon-twitter.png') center center no-repeat;
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #footer-inner {
+    .site-details {
+      float: none;
+      width: 100%;
+    }
+    .site-links {
+      float: none;
+      width: 100%;
     }
   }
 }
