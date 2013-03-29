@@ -6446,6 +6446,25 @@ table tfoot tr td {
   color: white;
 }
 
+@media only screen and (max-width: 767px) {
+  /* line 88, ../sass/_banner.scss */
+  .home #banner {
+    background-image: none;
+    background-color: #333333;
+  }
+  /* line 92, ../sass/_banner.scss */
+  .home #banner .widget {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
+    background-color: transparent;
+    float: none;
+    width: 100%;
+    padding: 0;
+  }
+}
 /**
  * Footer
  */

@@ -83,3 +83,18 @@
       }
    }
 }
+
+@media only screen and (max-width: 767px) {
+   .home #banner {
+      background-image: none;
+      background-color: #333333;
+
+      .widget {
+         @include border-radius(0);
+         background-color: transparent;
+         float: none;
+         width: 100%;
+         padding: 0;
+      }
+   }
+}
