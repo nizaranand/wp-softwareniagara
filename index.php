@@ -41,7 +41,7 @@
               <?php endif; ?>
             </section>
 
-            <?php if (!is_single()): ?>
+            <?php if (!is_single() && !is_page()): ?>
               <footer class="article-footer">
                 <a href="<?php the_permalink(); ?>" rel="bookmark" title="<?php the_title_attribute(); ?>" class="button"><?php _e('Read More', 'sn'); ?></a>
               </footer>
