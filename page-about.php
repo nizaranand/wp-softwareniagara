@@ -35,7 +35,7 @@ Template Name: About Page
               <h3><?php _e('Our Team'); ?></h3>
               <ul class="organizers large-block-grid-2">
                 <?php
-                    $users = get_users('orderby=nicename&role=administrator');
+                    $users = get_users('orderby=nicename&role=editor');
                     foreach ($users as $user) {
                       $user_meta = get_user_meta($user->ID);
                       echo '<li><article class="organizer row">';
