@@ -1,0 +1,50 @@
+#header {
+    @include background-image(linear-gradient(lighten($alt-color, 5%), $alt-color));
+    border-bottom: 1px solid darken($alt-color, 10%);
+}
+
+#header-inner {
+    @include grid-row;
+    padding: $column-gutter/2 0;
+
+    .wrapper {
+         @include grid-column(12);
+    }
+}
+
+#logo {
+    @extend .left;
+    background: transparent url('../images/logo.png') center center no-repeat;
+    width: 139px;
+    height: 80px;
+    overflow: hidden;
+    text-indent: -9999em;
+    margin: 0;
+}
+
+#navigation-main {
+    @extend .right;
+    padding-top: 23px;
+
+    li {
+         font-size: 1.3em;
+    }
+
+    a {
+         color: white;
+         @include transition(.3s all linear);
+
+         &:hover {
+             color: $primary-color;
+         }
+    }
+}
+
+.navigation ul {
+    @extend .inline-list;
+    margin: 0;
+}
+
+ul {
+   margin-left: $column-gutter;
+}

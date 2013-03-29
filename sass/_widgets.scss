@@ -1,0 +1,25 @@
+.widget {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    margin: 0;
+    margin-bottom: $column-gutter/2;
+    padding: 0;
+  }
+}
+
+/**
+ * Calendar widget
+ */
+#wp-calendar caption {
+   background-color: #E3E3E3;
+   padding: 3px 0;
+}
+
+#eo-widget-next-month {
+   text-align: right;
+}

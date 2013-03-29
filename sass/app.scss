@@ -1,0 +1,127 @@
+@import "settings";
+@import "foundation";
+@import "fc-icons";
+@import "compass/css3";
+@import "banner";
+@import "footer";
+@import "header";
+@import "page_about";
+@import "page_home";
+@import "widgets";
+
+#wp-admin-bar-search {
+	display: none;
+}
+
+body {
+   background-color: #333;
+	 padding: 0;
+}
+
+hgroup {
+  h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0;
+
+    a {
+      color: inherit;
+
+      &:hover {
+        color: inherit;
+      }
+    }
+  }
+  margin-bottom: $column-gutter/2;
+}
+
+.byline {
+  border-top: 1px solid darken($light-color, 20%);
+  border-bottom: 1px solid darken($light-color, 20%);
+
+  i {
+    color: darken($light-color, 40%);
+    vertical-align: middle;
+    margin-right: .5em;
+
+    &.social {
+      margin-left: 1em;
+    }
+  }
+}
+
+.button {
+   @include border-radius(2px);
+   @include box-shadow(none);
+   @include background-image(linear-gradient(lighten($button-color, 5%), $button-color));
+   border: 1px solid darken($button-color, 5%);
+   color: $small-font-color;
+   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+
+   &:hover {
+      @include background-image(linear-gradient($button-color, darken($button-color, 5%)));
+      border: 1px solid darken($button-color, 10%);
+      color: darken($small-font-color, 5%);
+   }
+}
+
+.reveal-modal {
+   @extend .medium;
+   position: fixed;
+   top: $column-gutter * 3 !important;
+}
+
+.parsley-error {
+   border-color: $danger-color !important;
+}
+
+.widget_search {
+	h4 {
+		display: none;
+	}
+
+	label {
+		text-indent: -9999em;
+		height: 0;
+	}
+}
+
+/**
+ * CONTENT
+ */
+#content {
+   background-color: white;
+}
+
+#content-inner {
+	 @include grid-row;
+	 padding: $column-gutter 0;
+}
+
+#main {
+	 @include grid-column(8);
+	 float: left;
+
+   article {
+    .article-footer {
+      border-bottom: 1px dashed darken($light-color, 20%);
+      padding-bottom: $column-gutter;
+      margin-bottom: $column-gutter;
+    }
+   }
+
+  article:last-child {
+    .article-footer {
+      border-bottom: none;
+      padding-bottom: 0;
+      margin-bottom: 0;
+    }
+  }
+}
+
+#sidebar {
+	 @include grid-column(4);
+	 float: left;
+}
+
+.byline {
+   font-size: $paragraph-font-size;
+}

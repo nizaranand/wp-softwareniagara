@@ -1,0 +1,12 @@
+/**
+ * Footer
+ */
+#footer {
+   background-color: #333;
+}
+
+#footer-inner {
+   @include grid-row;
+   padding: $column-gutter 0;
+   color: white;
+}

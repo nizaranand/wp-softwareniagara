@@ -1,0 +1,30 @@
+body.home {
+   #main {
+       @include grid-column(12);
+       float: none;
+
+       p {
+         @extend .lead;
+       }
+   }
+
+   #sidebar {
+       display: none;
+   }
+
+   .home-regions {
+       .widget-wrapper {
+            @include grid-column(4);
+            float: left;
+       }
+
+       .widget-icon {
+         background-color: $light-color;
+         @include background-image(radial-gradient(50% 50%, lighten($light-color, 10%) 25%, $light-color 75%));
+         color: $banner-color;
+         font-size: 96px;
+         padding: $column-gutter/4 0;
+         text-align: center;
+       }
+   }
+}

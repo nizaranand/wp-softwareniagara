@@ -1,0 +1,5 @@
+<?php
+/*
+ * Just use disqus.
+ */
+?>

@@ -1,0 +1,85 @@
+/**
+ * BANNER
+ */
+
+#banner {
+   @include box-shadow(inset 0 1px 0 rgba(255, 255, 255, 0.25));
+   background-color: $light-color;
+   border-bottom: 1px solid darken($light-color, 5%);
+   color: white;
+}
+
+.home #banner {
+   @include background-size(cover);
+   background-image: url('../images/banner.jpg');
+   background-position: top left;
+   background-repeat: no-repeat;
+   border-bottom-width: 5px;
+   border-bottom-color: $banner-border-color;
+
+   h1, h2, h3, h4, h5, h6 {
+      color: white;
+      text-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+   }
+}
+
+#banner-inner {
+   @include grid-row;
+   padding: $column-gutter 0;
+
+   .wrapper {
+      @include grid-column(12);
+   }
+}
+
+#banner {
+   hgroup {
+      margin-bottom: 0;
+   }
+
+   h1, h2, h3, h4, h5, h6 {
+      margin: 0;
+      color: $alt-color;
+      font-weight: normal;
+      text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+
+      &.byline {
+         border-top: none;
+         border-bottom: none;
+
+         i {
+            color: lighten($alt-color, 40%);
+         }
+      }
+   }
+
+   .widget {
+      @include border-radius(2px);
+      @include grid-column(8);
+      background: rgba(0,0,0,0.25);
+      padding: $column-gutter;
+      text-shadow: normal;
+
+      h3 {
+         @extend h1;
+      }
+
+      p {
+         @extend .lead;
+      }
+
+      .button {
+         @extend .large;
+         @include background-image(linear-gradient(lighten($banner-button-color, 5%), $banner-button-color));
+         border: 1px solid darken($banner-button-color, 5%);
+         color: white;
+         text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+
+         &:hover {
+            @include background-image(linear-gradient($banner-button-color, darken($banner-button-color, 5%)));
+            border: 1px solid darken($banner-button-color, 10%);
+            color: white;
+         }
+      }
+   }
+}
