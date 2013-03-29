@@ -59,3 +59,13 @@
     clear: both;
   }
 }
+
+@media only screen and (max-width: 767px) {
+  .organizers {
+    text-align: center;
+
+    .organizer {
+      margin: 0 auto;
+    }
+  }
+}

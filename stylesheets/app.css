@@ -6701,6 +6701,16 @@ ul {
   clear: both;
 }
 
+@media only screen and (max-width: 767px) {
+  /* line 64, ../sass/_page_about.scss */
+  .organizers {
+    text-align: center;
+  }
+  /* line 67, ../sass/_page_about.scss */
+  .organizers .organizer {
+    margin: 0 auto;
+  }
+}
 /* line 2, ../sass/_page_home.scss */
 body.home #main {
   position: relative;
