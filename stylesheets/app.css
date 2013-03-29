@@ -6634,6 +6634,12 @@ ul {
   margin-left: 1.875em;
 }
 
+@media only screen and (max-width: 767px) {
+  /* line 53, ../sass/_header.scss */
+  ul.title-area {
+    margin-left: 0;
+  }
+}
 /* line 1, ../sass/_page_about.scss */
 .organizers {
   list-style: none;

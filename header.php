@@ -27,7 +27,7 @@
 		<?php wp_head(); ?>
 	</head>
 	<body <?php body_class(); ?>>
-    <header class="header" id="header" role="banner">
+    <header class="header hide-for-small" id="header" role="banner">
       <div id="header-inner">
         <div class="wrapper">
            <a href="<?php echo home_url(); ?>" rel="nofollow">
@@ -41,3 +41,22 @@
          </div>
       </div>
     </header>
+    <nav class="top-bar show-for-small">
+      <ul class="title-area">
+        <li class="name">
+          <h1>
+            <a href="<?php echo home_url(); ?>" rel="nofollow">
+              <?php bloginfo('name'); ?>
+            </a>
+          </h1>
+        </li>
+        <li class="toggle-topbar menu-icon">
+          <a href="#">
+            <span><?php _e('Menu', 'sn'); ?></span>
+          </a>
+        </li>
+      </ul>
+      <section class="top-bar-section">
+        <?php sn_main_nav(); ?>
+      </section>
+    </nav>

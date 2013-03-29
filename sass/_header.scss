@@ -48,3 +48,9 @@
 ul {
    margin-left: $column-gutter;
 }
+
+@media only screen and (max-width: 767px) {
+    ul.title-area {
+        margin-left: 0;
+    }
+}
