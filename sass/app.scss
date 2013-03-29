@@ -125,3 +125,17 @@ hgroup {
 .byline {
    font-size: $paragraph-font-size;
 }
+
+@media only screen and (max-width: 767px) {
+  #main {
+    float: none;
+    width: 100%;
+  }
+  #sidebar {
+    border-top: 1px solid $light-color;
+    margin-top: $column-gutter;
+    padding-top: $column-gutter;
+    float: none;
+    width: 100%;
+  }
+}

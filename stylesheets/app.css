@@ -6901,3 +6901,20 @@ hgroup h1 a:hover, hgroup #banner .widget h3 a:hover, #banner .widget hgroup h3 
 .byline {
   font-size: 1em;
 }
+
+@media only screen and (max-width: 767px) {
+  /* line 130, ../sass/app.scss */
+  #main {
+    float: none;
+    width: 100%;
+  }
+
+  /* line 134, ../sass/app.scss */
+  #sidebar {
+    border-top: 1px solid whitesmoke;
+    margin-top: 1.875em;
+    padding-top: 1.875em;
+    float: none;
+    width: 100%;
+  }
+}
