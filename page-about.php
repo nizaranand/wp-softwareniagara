@@ -63,10 +63,6 @@ Template Name: About Page
                 ?>
                 </ul>
             </section>
-
-            <footer class="article-footer">
-              <p class="tags"><?php the_tags('<span class="tags-title">' . __('Tags:', 'sn') . '</span> ', ', ', ''); ?></p>
-            </footer>
           </article>
         <?php endwhile; ?>
           <?php if (function_exists('sn_page_navi')): ?>
