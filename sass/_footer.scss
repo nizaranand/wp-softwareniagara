@@ -6,7 +6,46 @@
 }
 
 #footer-inner {
-   @include grid-row;
-   padding: $column-gutter 0;
-   color: white;
+  @include grid-row;
+  padding: $column-gutter 0;
+  color: white;
+
+  .site-details {
+    @include grid-column(8);
+    float: left;
+  }
+
+  .site-links {
+    @include grid-column(4);
+    float: left;
+
+    ul {
+      @extend .inline-list;
+      margin: 0;
+    }
+
+    li a {
+      display: block;
+      width: 48px;
+      height: 48px;
+      overflow: hidden;
+      text-indent: -9999em;
+    }
+
+    li a[title=Github] {
+      background: transparent url('../images/fc-webicon-github.png') center center no-repeat;
+    }
+
+    li a[title=Google] {
+      background: transparent url('../images/fc-webicon-googleplus.png') center center no-repeat;
+    }
+
+    li a[title=Facebook] {
+      background: transparent url('../images/fc-webicon-facebook.png') center center no-repeat;
+    }
+
+    li a[title=Twitter] {
+      background: transparent url('../images/fc-webicon-twitter.png') center center no-repeat;
+    }
+  }
 }

@@ -4605,21 +4605,21 @@ kbd {
 
 /* Inline Lists */
 /* line 43, ../../../../../../../../../Users/Developer/.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-4.0.5/scss/foundation/components/_inline-lists.scss */
-.inline-list, .navigation ul {
+.inline-list, #footer-inner .site-links ul, .navigation ul {
   margin: 0 0 1.0625em -1.375em;
   padding: 0;
   list-style: none;
   overflow: hidden;
 }
 /* line 30, ../../../../../../../../../Users/Developer/.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-4.0.5/scss/foundation/components/_inline-lists.scss */
-.inline-list > li, .navigation ul > li {
+.inline-list > li, #footer-inner .site-links ul > li, .navigation ul > li {
   list-style: none;
   float: left;
   margin-left: 1.375em;
   display: block;
 }
 /* line 35, ../../../../../../../../../Users/Developer/.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-4.0.5/scss/foundation/components/_inline-lists.scss */
-.inline-list > li > *, .navigation ul > li > * {
+.inline-list > li > *, #footer-inner .site-links ul > li > *, .navigation ul > li > * {
   display: block;
 }
 
@@ -6474,6 +6474,50 @@ table tfoot tr td {
 /* line 170, ../../../../../../../../../Users/Developer/.rvm/gems/ruby-1.9.3-p194/gems/zurb-foundation-4.0.5/scss/foundation/_foundation-global.scss */
 #footer-inner:after {
   clear: both;
+}
+/* line 13, ../sass/_footer.scss */
+#footer-inner .site-details {
+  position: relative;
+  padding-left: 0.9375em;
+  padding-right: 0.9375em;
+  width: 66.66667%;
+  float: left;
+}
+/* line 18, ../sass/_footer.scss */
+#footer-inner .site-links {
+  position: relative;
+  padding-left: 0.9375em;
+  padding-right: 0.9375em;
+  width: 33.33333%;
+  float: left;
+}
+/* line 22, ../sass/_footer.scss */
+#footer-inner .site-links ul {
+  margin: 0;
+}
+/* line 27, ../sass/_footer.scss */
+#footer-inner .site-links li a {
+  display: block;
+  width: 48px;
+  height: 48px;
+  overflow: hidden;
+  text-indent: -9999em;
+}
+/* line 35, ../sass/_footer.scss */
+#footer-inner .site-links li a[title=Github] {
+  background: transparent url("../images/fc-webicon-github.png") center center no-repeat;
+}
+/* line 39, ../sass/_footer.scss */
+#footer-inner .site-links li a[title=Google] {
+  background: transparent url("../images/fc-webicon-googleplus.png") center center no-repeat;
+}
+/* line 43, ../sass/_footer.scss */
+#footer-inner .site-links li a[title=Facebook] {
+  background: transparent url("../images/fc-webicon-facebook.png") center center no-repeat;
+}
+/* line 47, ../sass/_footer.scss */
+#footer-inner .site-links li a[title=Twitter] {
+  background: transparent url("../images/fc-webicon-twitter.png") center center no-repeat;
 }
 
 /* line 1, ../sass/_header.scss */
