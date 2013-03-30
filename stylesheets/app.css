@@ -6777,15 +6777,28 @@ body.home .home-regions .widget-icon {
 }
 
 /**
+ * Search widget
+ */
+/* line 19, ../sass/_widgets.scss */
+.widget_search h4 {
+  display: none;
+}
+/* line 23, ../sass/_widgets.scss */
+.widget_search label {
+  text-indent: -9999em;
+  height: 0;
+}
+
+/**
  * Calendar widget
  */
-/* line 18, ../sass/_widgets.scss */
+/* line 32, ../sass/_widgets.scss */
 #wp-calendar caption {
   background-color: #E3E3E3;
   padding: 3px 0;
 }
 
-/* line 23, ../sass/_widgets.scss */
+/* line 37, ../sass/_widgets.scss */
 #eo-widget-next-month {
   text-align: right;
 }
