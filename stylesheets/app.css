@@ -6426,6 +6426,7 @@ table tfoot tr td {
 }
 /* line 71, ../sass/_banner.scss */
 #banner .widget .button {
+  background-color: #a03348;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #b33951), color-stop(100%, #a03348));
   background-image: -webkit-linear-gradient(#b33951, #a03348);
   background-image: -moz-linear-gradient(#b33951, #a03348);
@@ -6435,8 +6436,9 @@ table tfoot tr td {
   color: white;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 }
-/* line 78, ../sass/_banner.scss */
+/* line 79, ../sass/_banner.scss */
 #banner .widget .button:hover {
+  background-color: #8d2d3f;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #a03348), color-stop(100%, #8d2d3f));
   background-image: -webkit-linear-gradient(#a03348, #8d2d3f);
   background-image: -moz-linear-gradient(#a03348, #8d2d3f);
@@ -6447,12 +6449,12 @@ table tfoot tr td {
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 88, ../sass/_banner.scss */
+  /* line 90, ../sass/_banner.scss */
   .home #banner {
     background-image: none;
     background-color: #215181;
   }
-  /* line 92, ../sass/_banner.scss */
+  /* line 94, ../sass/_banner.scss */
   .home #banner .widget {
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
@@ -6557,6 +6559,7 @@ table tfoot tr td {
 }
 /* line 1, ../sass/_header.scss */
 #header {
+  background-color: #215181;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #265e95), color-stop(100%, #215181));
   background-image: -webkit-linear-gradient(#265e95, #215181);
   background-image: -moz-linear-gradient(#265e95, #215181);
@@ -6565,7 +6568,7 @@ table tfoot tr td {
   border-bottom: 1px solid #173758;
 }
 
-/* line 6, ../sass/_header.scss */
+/* line 7, ../sass/_header.scss */
 #header-inner {
   width: 100%;
   margin-left: auto;
@@ -6585,7 +6588,7 @@ table tfoot tr td {
 #header-inner:after {
   clear: both;
 }
-/* line 10, ../sass/_header.scss */
+/* line 11, ../sass/_header.scss */
 #header-inner .wrapper {
   position: relative;
   padding-left: 0.9375em;
@@ -6593,7 +6596,7 @@ table tfoot tr td {
   width: 100%;
 }
 
-/* line 15, ../sass/_header.scss */
+/* line 16, ../sass/_header.scss */
 #logo {
   background: transparent url("../images/logo.png") center center no-repeat;
   width: 139px;
@@ -6603,15 +6606,15 @@ table tfoot tr td {
   margin: 0;
 }
 
-/* line 25, ../sass/_header.scss */
+/* line 26, ../sass/_header.scss */
 #navigation-main {
   padding-top: 23px;
 }
-/* line 29, ../sass/_header.scss */
+/* line 30, ../sass/_header.scss */
 #navigation-main li {
   font-size: 1.3em;
 }
-/* line 33, ../sass/_header.scss */
+/* line 34, ../sass/_header.scss */
 #navigation-main a {
   color: white;
   -webkit-transition: 0.3s all linear;
@@ -6619,23 +6622,23 @@ table tfoot tr td {
   -o-transition: 0.3s all linear;
   transition: 0.3s all linear;
 }
-/* line 37, ../sass/_header.scss */
+/* line 38, ../sass/_header.scss */
 #navigation-main a:hover {
   color: #00aac9;
 }
 
-/* line 43, ../sass/_header.scss */
+/* line 44, ../sass/_header.scss */
 .navigation ul {
   margin: 0;
 }
 
-/* line 48, ../sass/_header.scss */
+/* line 49, ../sass/_header.scss */
 ul {
   margin-left: 1.875em;
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 53, ../sass/_header.scss */
+  /* line 54, ../sass/_header.scss */
   ul.title-area {
     margin-left: 0;
   }
@@ -6857,6 +6860,7 @@ hgroup h1 a:hover, hgroup #banner .widget h3 a:hover, #banner .widget hgroup h3 
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
+  background-color: #e9e9e9;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f6f6f6), color-stop(100%, #e9e9e9));
   background-image: -webkit-linear-gradient(#f6f6f6, #e9e9e9);
   background-image: -moz-linear-gradient(#f6f6f6, #e9e9e9);
@@ -6866,8 +6870,9 @@ hgroup h1 a:hover, hgroup #banner .widget h3 a:hover, #banner .widget hgroup h3 
   color: #6f6f6f;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
 }
-/* line 59, ../sass/app.scss */
+/* line 60, ../sass/app.scss */
 .button:hover {
+  background-color: gainsboro;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e9e9e9), color-stop(100%, #dcdcdc));
   background-image: -webkit-linear-gradient(#e9e9e9, #dcdcdc);
   background-image: -moz-linear-gradient(#e9e9e9, #dcdcdc);
@@ -6877,18 +6882,18 @@ hgroup h1 a:hover, hgroup #banner .widget h3 a:hover, #banner .widget hgroup h3 
   color: #626262;
 }
 
-/* line 66, ../sass/app.scss */
+/* line 68, ../sass/app.scss */
 .reveal-modal {
   position: fixed;
   top: 5.625em !important;
 }
 
-/* line 72, ../sass/app.scss */
+/* line 74, ../sass/app.scss */
 .parsley-error {
   border-color: #af384f !important;
 }
 
-/* line 76, ../sass/app.scss */
+/* line 78, ../sass/app.scss */
 .panel {
   background-color: whitesmoke;
   border-color: #e8e8e8;
@@ -6897,12 +6902,12 @@ hgroup h1 a:hover, hgroup #banner .widget h3 a:hover, #banner .widget hgroup h3 
 /**
  * CONTENT
  */
-/* line 84, ../sass/app.scss */
+/* line 86, ../sass/app.scss */
 #content {
   background-color: white;
 }
 
-/* line 88, ../sass/app.scss */
+/* line 90, ../sass/app.scss */
 #content-inner {
   width: 100%;
   margin-left: auto;
@@ -6923,7 +6928,7 @@ hgroup h1 a:hover, hgroup #banner .widget h3 a:hover, #banner .widget hgroup h3 
   clear: both;
 }
 
-/* line 93, ../sass/app.scss */
+/* line 95, ../sass/app.scss */
 #main {
   position: relative;
   padding-left: 0.9375em;
@@ -6931,20 +6936,20 @@ hgroup h1 a:hover, hgroup #banner .widget h3 a:hover, #banner .widget hgroup h3 
   width: 66.66667%;
   float: left;
 }
-/* line 98, ../sass/app.scss */
+/* line 100, ../sass/app.scss */
 #main article .article-footer {
   border-bottom: 1px dashed #c2c2c2;
   padding-bottom: 1.875em;
   margin-bottom: 1.875em;
 }
-/* line 106, ../sass/app.scss */
+/* line 108, ../sass/app.scss */
 #main article:last-child .article-footer {
   border-bottom: none;
   padding-bottom: 0;
   margin-bottom: 0;
 }
 
-/* line 114, ../sass/app.scss */
+/* line 116, ../sass/app.scss */
 #sidebar {
   position: relative;
   padding-left: 0.9375em;
@@ -6953,19 +6958,19 @@ hgroup h1 a:hover, hgroup #banner .widget h3 a:hover, #banner .widget hgroup h3 
   float: left;
 }
 
-/* line 119, ../sass/app.scss */
+/* line 121, ../sass/app.scss */
 .byline {
   font-size: 1em;
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 124, ../sass/app.scss */
+  /* line 126, ../sass/app.scss */
   #main {
     float: none;
     width: 100%;
   }
 
-  /* line 128, ../sass/app.scss */
+  /* line 130, ../sass/app.scss */
   #sidebar {
     border-top: 1px solid whitesmoke;
     margin-top: 1.875em;

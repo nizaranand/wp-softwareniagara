@@ -1,4 +1,5 @@
 #header {
+    background-color: $alt-color;
     @include background-image(linear-gradient(lighten($alt-color, 5%), $alt-color));
     border-bottom: 1px solid darken($alt-color, 10%);
 }

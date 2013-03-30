@@ -70,12 +70,14 @@
 
       .button {
          @extend .large;
+         background-color: $banner-button-color;
          @include background-image(linear-gradient(lighten($banner-button-color, 5%), $banner-button-color));
          border: 1px solid darken($banner-button-color, 5%);
          color: white;
          text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 
          &:hover {
+            background-color: darken($banner-button-color, 5%);
             @include background-image(linear-gradient($banner-button-color, darken($banner-button-color, 5%)));
             border: 1px solid darken($banner-button-color, 10%);
             color: white;

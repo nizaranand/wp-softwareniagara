@@ -51,12 +51,14 @@ hgroup {
 .button {
    @include border-radius(2px);
    @include box-shadow(none);
+   background-color: $button-color;
    @include background-image(linear-gradient(lighten($button-color, 5%), $button-color));
    border: 1px solid darken($button-color, 5%);
    color: $small-font-color;
    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
 
    &:hover {
+      background-color: darken($button-color, 5%);
       @include background-image(linear-gradient($button-color, darken($button-color, 5%)));
       border: 1px solid darken($button-color, 10%);
       color: darken($small-font-color, 5%);
