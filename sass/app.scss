@@ -80,6 +80,21 @@ hgroup {
   border-color: darken($light-color, 5%);
 }
 
+.chromeframe {
+  background-color: $danger-color;
+  border-top: 1px solid lighten($danger-color, 10%);
+  border-bottom: 2px solid darken($danger-color, 10%);
+  color: white;
+  margin: 0;
+  padding: $column-gutter;
+  text-align: center;
+
+  a {
+    color: white;
+    text-decoration: underline;
+  }
+}
+
 /**
  * CONTENT
  */

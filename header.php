@@ -27,6 +27,9 @@
 		<?php wp_head(); ?>
 	</head>
 	<body <?php body_class(); ?>>
+    <!--[if lt IE 9]>
+      <p class="chromeframe">Things don't look right here because you are using an <strong>outdated</strong> browser. Please <strong><a href="http://browsehappy.com/">pick a better browser</a></strong> to improve your experience.</p>
+    <![endif]-->
     <header class="header hide-for-small" id="header" role="banner">
       <div id="header-inner">
         <div class="wrapper">
