@@ -73,15 +73,9 @@ hgroup {
    border-color: $danger-color !important;
 }
 
-.widget_search {
-	h4 {
-		display: none;
-	}
-
-	label {
-		text-indent: -9999em;
-		height: 0;
-	}
+.panel {
+  background-color: $light-color;
+  border-color: darken($light-color, 5%);
 }
 
 /**

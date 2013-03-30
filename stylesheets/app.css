@@ -6888,25 +6888,21 @@ hgroup h1 a:hover, hgroup #banner .widget h3 a:hover, #banner .widget hgroup h3 
   border-color: #af384f !important;
 }
 
-/* line 77, ../sass/app.scss */
-.widget_search h4 {
-  display: none;
-}
-/* line 81, ../sass/app.scss */
-.widget_search label {
-  text-indent: -9999em;
-  height: 0;
+/* line 76, ../sass/app.scss */
+.panel {
+  background-color: whitesmoke;
+  border-color: #e8e8e8;
 }
 
 /**
  * CONTENT
  */
-/* line 90, ../sass/app.scss */
+/* line 84, ../sass/app.scss */
 #content {
   background-color: white;
 }
 
-/* line 94, ../sass/app.scss */
+/* line 88, ../sass/app.scss */
 #content-inner {
   width: 100%;
   margin-left: auto;
@@ -6927,7 +6923,7 @@ hgroup h1 a:hover, hgroup #banner .widget h3 a:hover, #banner .widget hgroup h3 
   clear: both;
 }
 
-/* line 99, ../sass/app.scss */
+/* line 93, ../sass/app.scss */
 #main {
   position: relative;
   padding-left: 0.9375em;
@@ -6935,20 +6931,20 @@ hgroup h1 a:hover, hgroup #banner .widget h3 a:hover, #banner .widget hgroup h3 
   width: 66.66667%;
   float: left;
 }
-/* line 104, ../sass/app.scss */
+/* line 98, ../sass/app.scss */
 #main article .article-footer {
   border-bottom: 1px dashed #c2c2c2;
   padding-bottom: 1.875em;
   margin-bottom: 1.875em;
 }
-/* line 112, ../sass/app.scss */
+/* line 106, ../sass/app.scss */
 #main article:last-child .article-footer {
   border-bottom: none;
   padding-bottom: 0;
   margin-bottom: 0;
 }
 
-/* line 120, ../sass/app.scss */
+/* line 114, ../sass/app.scss */
 #sidebar {
   position: relative;
   padding-left: 0.9375em;
@@ -6957,19 +6953,19 @@ hgroup h1 a:hover, hgroup #banner .widget h3 a:hover, #banner .widget hgroup h3 
   float: left;
 }
 
-/* line 125, ../sass/app.scss */
+/* line 119, ../sass/app.scss */
 .byline {
   font-size: 1em;
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 130, ../sass/app.scss */
+  /* line 124, ../sass/app.scss */
   #main {
     float: none;
     width: 100%;
   }
 
-  /* line 134, ../sass/app.scss */
+  /* line 128, ../sass/app.scss */
   #sidebar {
     border-top: 1px solid whitesmoke;
     margin-top: 1.875em;
