@@ -129,4 +129,10 @@ function sn_alter_event_query($query) {
 }
 add_action('pre_get_posts', 'sn_alter_event_query');
 
+/************ MINIFICATION ************************/
+function exclude_css_from_minify($excluded) {
+    $excluded = array('admin-bar');
+    return $excluded;
+}
+add_filter('bwp_minify_style_ignore', 'exclude_css_from_minify');
 ?>
