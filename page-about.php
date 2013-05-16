@@ -32,7 +32,7 @@ Template Name: About Page
 
             <section class="article-content">
               <?php the_content(); ?>
-              <h3><?php _e('Our Team'); ?></h3>
+              <h3 id="the-team"><?php _e('Our Team'); ?></h3>
               <ul class="organizers large-block-grid-2">
                 <?php
                     $users = get_users('orderby=nicename&role=editor');
